@@ -1,0 +1,143 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "head": {
+        "title": "Qualitätsbetreuung und Dienstleistungen für OCI-Immobilien",
+        "description": "Wir bieten eine breite Palette von Dienstleistungen, um Ihnen bei der Verwaltung Ihres Hauses oder Autos zu helfen – egal ob Sie abwesend sind oder bereits zu Hause. Unsere Fachleute sorgen dafür, dass alles reibungslos läuft, damit alles bereit, sicher und in bestem Zustand ist, sodass Sie Ihren Aufenthalt mit maximaler Ruhe genießen können."
+    },
+    "services": {
+        "home_care": {
+            "title": "Hausbetreuung",
+            "description": "Hauskontrolle, Reinigung von Innen- und Außenbereichen, für ein stets gepflegtes Zuhause. Garten und weitere Annehmlichkeiten in professionellen Händen."
+        },
+        "return_preparation_services": {
+            "title": "Rückkehrvorbereitung",
+            "description": "Sie kommen nach Hause und möchten, dass alles bereit ist? Sie brauchen einen schnellen Service oder Unterstützung bei Buchungen? Wir sind für Sie da."
+        },
+        "property_security": {
+            "title": "Objektschutz",
+            "description": "Sicherstellung der Sicherheit Ihres Eigentums durch regelmäßige Inspektionen und Überwachung."
+        },
+        "emergency_services": {
+            "title": "Notfalldienste",
+            "description": "Etwas Unerwartetes ist während Ihrer Abwesenheit passiert? Wir helfen Ihnen bei Notfällen – ob Rohrbruch, Stromausfall oder andere dringende Situationen. Unser Team reagiert schnell und effizient."
+        }
+    },
+    "plans": {
+        "essential": {
+            "title": "Essential-Paket",
+            "description": "Ideal für kleine Immobilien oder kurze Aufenthalte.",
+            "price": "12 €/Monat",
+            "features": {
+                "0": "Monatliche Objektinspektionen",
+                "1": "Monatliche Innenreinigung & Lüftung",
+                "2": "Postbearbeitung",
+                "3": "Überprüfung von Versorgungszählern",
+                "4": "Monatliche Foto-/Videoberichte",
+                "5": "Basis-WhatsApp-Support",
+                "6": "Minimale Vertraulichkeitsanforderungen"
+            }
+        },
+        "comfort": {
+            "title": "Comfort-Paket",
+            "description": "Perfekt für mittelgroße Immobilien oder längere Aufenthalte.",
+            "price": "24 €/Monat",
+            "features": {
+                "0": "Alles aus dem Essential-Paket",
+                "1": "Zweiwöchentliche Objektinspektionen",
+                "2": "Zweimal monatliche Innenreinigung & Lüftung",
+                "3": "Grundlegende Garten- & Rasenpflege",
+                "4": "Motor- und Reifenprüfung des Fahrzeugs",
+                "5": "Notfallreaktion: so schnell wie möglich",
+                "6": "Grundlegende Rückkehrvorbereitung",
+                "7": "Zweimal monatliche Foto-/Videoberichte",
+                "8": "Mittlerer WhatsApp-Support",
+                "9": "Mittlere Vertraulichkeitsanforderungen"
+            }
+        },
+        "executive": {
+            "title": "Executive-Paket",
+            "description": "Am besten für große Immobilien oder Vielreisende.",
+            "price": "48 €/Monat",
+            "features": {
+                "0": "Alles aus dem Comfort-Paket",
+                "1": "Wöchentliche Objektinspektionen",
+                "2": "Wöchentliche & gründliche Innenreinigung & Lüftung",
+                "3": "Umfassende Garten- & Rasenpflege",
+                "4": "Tanken & Komplettreinigung des Fahrzeugs",
+                "5": "Basis-Poolservice",
+                "6": "Notfallreaktion: am selben Tag",
+                "7": "Umfassende Rückkehrvorbereitung",
+                "8": "Wöchentliche Foto-/Videoberichte",
+                "9": "Priorisierter WhatsApp-Support",
+                "10": "Basis-Smart-Home-/Alarmunterstützung",
+                "11": "Basis-Tierbetreuung",
+                "12": "Erweiterte Vertraulichkeitsanforderungen"
+            }
+        },
+        "signature": {
+            "title": "Signature-Paket",
+            "description": "Am besten für große Immobilien oder Vielreisende.",
+            "price": "Auf Anfrage",
+            "features": {
+                "0": "Alles aus dem Executive-Paket",
+                "1": "Individuelle Objektinspektionen",
+                "2": "Personalisierte Innenreinigung & Lüftung",
+                "3": "Umfassende & stilvolle Garten- & Rasenpflege",
+                "4": "Fahrerkoordination für das Fahrzeug",
+                "5": "Premium-Poolservice",
+                "6": "Notfallreaktion: Priorität",
+                "7": "Individuelle Begrüßung zur Rückkehr",
+                "8": "Foto-/Videoberichte auf Anfrage",
+                "9": "Dedizierter WhatsApp-Assistent",
+                "10": "Mittlere Smart-Home-/Alarmunterstützung",
+                "11": "Mittlere Tierbetreuung",
+                "12": "Luxus-Asset-Management: Kunst, Wein, Personal",
+                "13": "Personalkoordination: Reinigungskraft-/Fahrerbesuche",
+                "14": "Sicherheitskoordination: Optional",
+                "15": "Hohe Vertraulichkeitsanforderungen (NDA inklusive)"
+            }
+        },
+        "bespoke": {
+            "title": "Maßgeschneidertes Paket",
+            "description": "Premium-Betreuung für außergewöhnliche Menschen und Immobilien.",
+            "price": "Nur Beratung",
+            "features": {
+                "0": "Alles aus dem Signature-Paket",
+                "1": "Individuelle oder residenter Butler-Objektinspektionen",
+                "2": "Tägliche oder residenter Personal-Innenreinigung & Lüftung",
+                "3": "Überprüfung von Versorgungszählern: Nutzungsberichte",
+                "4": "Komplettes Team mit Botaniker für Garten- & Rasenpflege",
+                "5": "Garagen- & Fuhrparkmanagement",
+                "6": "Dedizierter Techniker für Poolservice",
+                "7": "Notfallreaktion: 24/7 Estate Manager",
+                "8": "Lebensstilbasierte, Chef-Bereitschaft für Rückkehrvorbereitung",
+                "9": "Sicheres Portal + Berichte für Foto-/Videoberichte",
+                "10": "Private Hotline / WhatsApp-Kontakt",
+                "11": "Smart-Home-/Alarmüberwachung: Vollständige Systemüberwachung",
+                "12": "Tierarztbesuche + residenter Tierbetreuer",
+                "13": "Luxus-Asset-Management: Berichterstattung, Verwahrung",
+                "14": "Personalkoordination: Vollständiges HR & Lohnabrechnung",
+                "15": "Sicherheitskoordination: Vollzeit-Sicherheitsberater",
+                "16": "Höchste Vertraulichkeitsanforderungen (individuelle NDA + juristische Prüfung)"
+            }
+        }
+    },
+    "about_us": {
+        "title": "Über uns",
+        "description": "Suppavisor ist ein Team leidenschaftlicher Fachleute, das sich der Bereitstellung hochwertiger Dienstleistungen verschrieben hat, die Ergebnisse liefern. Mit jahrelanger Erfahrung in verschiedenen Branchen setzen wir uns dafür ein, Sie glücklich zu machen. Wir sind in Punjab, Indien, ansässig und möchten unser Fachwissen bald in ganz Indien anbieten."
+    },
+    "contact_us": {
+        "title": "Kontakt",
+        "description": "Wir würden uns freuen, von Ihnen zu hören! Ob Sie eine Frage, Feedback oder einfach nur Hallo sagen möchten – kontaktieren Sie uns gerne. Unser Team hilft Ihnen gerne weiter und sorgt für die bestmögliche Erfahrung.",
+        "form": {
+            "name": "Name",
+            "name_placeholder": "Ihr Name",
+            "email": "E-Mail",
+            "email_placeholder": "sie@email.com",
+            "message": "Nachricht",
+            "message_placeholder": "Wie können wir Ihnen helfen?",
+            "submit": "Absenden"
+        }
+    },
+    "all_rights_reserved": "Alle Rechte vorbehalten."
+}

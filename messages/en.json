@@ -1,0 +1,143 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"head": {
+		"title": "Quality Care and Services for OCI Properties",
+		"description": "We provide a wide range of services to help you manage your home, car, while away or if you are already at home. Our professionals are here to ensure everything runs smoothly, so everything is ready, safe and sound so you can enjoy your stay at maximum peace of mind."
+	},
+	"services": {
+		"home_care": {
+			"title": "Home Care",
+			"description": "Home checking, cleaning interiors and exteriors, providing a tidy living space. Garden and other commodities in our professional hands."
+		},
+		"return_preparation_services": {
+			"title": "Return Preparation Services",
+			"description": "You come back home and want everything to be ready when you are here? You need a quick pick-me-up? You need arrangements for booking? We are here for you."
+		},
+		"property_security": {
+			"title": "Property Security",
+			"description": "Ensuring the safety and security of your property with regular inspections and monitoring."
+		},
+		"emergency_services": {
+			"title": "Emergency Services",
+			"description": "Something unexpected happened while abroad? We are here to help you with emergency services, whether it's a broken pipe, a power outage, or any other urgent situation. Our team is ready to respond quickly and efficiently."
+		}
+	},
+	"plans": {
+		"essential": {
+			"title": "Essential Plan",
+			"description": "Ideal for small properties or short stays.",
+			"price": "$12/month",
+			"features": {
+				"0": "Monthly property Inspections",
+				"1": "Monthly interior Cleaning & Airing",
+				"2": "Mail Handling",
+				"3": "Utility & Meter Check",
+				"4": "Monthly Photo/Video Reports",
+				"5": "Basic WhatsApp Support",
+				"6": "Minimum Confidentiality Requirements"
+			}
+		},
+		"comfort": {
+			"title": "Comfort Plan",
+			"description": "Perfect for medium-sized properties or longer stays.",
+			"price": "$24/month",
+			"features": {
+				"0": "Everything from Essential Plan",
+				"1": "Bi-weekly Property Inspections",
+				"2": "Twice/month Interior Cleaning & Airing",
+				"3": "Basic Garden & Lawn Care",
+				"4": "Engine + Tyres of Vehicle",
+				"5": "Emergency Response delay: as soon as possible",
+				"6": "Basic Return Preparation",
+				"7": "Twice/month Photo/Video Reports",
+				"8": "Medium WhatsApp Support",
+				"9": "Medium Confidentiality Requirements"
+			}
+		},
+		"executive": {
+			"title": "Executive Plan",
+			"description": "Best for large properties or frequent travelers.",
+			"price": "$48/month",
+			"features": {
+				"0": "Everything from Comfort Plan",
+				"1": "Weekly Property Inspections",
+				"2": "Weekly + Deep Interior Cleaning & Airing",
+				"3": "Full Garden & Lawn Care",
+				"4": "Fuel + Full Clean of Vehicle",
+				"5": "Basic Service Pool Maintenance",
+				"6": "Emergency Response delay: Same-day",
+				"7": "Full Return Preparation",
+				"8": "Weekly Photo/Video Reports",
+				"9": "Priority WhatsApp Support",
+				"10": "Basic Smart Home/Alarm Sync Support",
+				"11": "Basic Service Pet Care",
+				"12": "Advanced Confidentiality Requirements"
+			}
+		},
+		"signature": {
+			"title": "Signature Plan",
+			"description": "Best for large properties or frequent travelers.",
+			"price": "On request",
+			"features": {
+				"0": "Everything from Executive Plan",
+				"1": "Custom Property Inspections",
+				"2": "Personalized Interior Cleaning & Airing",
+				"3": "Full + styling Garden & Lawn Care",
+				"4": "Driver coordination of Vehicle",
+				"5": "Premium quality Pool Maintenance",
+				"6": "Emergency Response delay: Priority",
+				"7": "Custom welcome for Return Preparation",
+				"8": "On request Photo/Video Reports",
+				"9": "Dedicated assistant WhatsApp Support",
+				"10": "Medium Smart Home/Alarm Sync Support",
+				"11": "Medium Service Pet Care",
+				"12": "Luxury Asset Oversight: Art, wine, staff mgmt.",
+				"13": "Staff Coordination: Maid/driver visits",
+				"14": "Security Liaison: Optional",
+				"15": "Hight Confidentiality Requirements (NDA Included)"
+			}
+		},
+		"bespoke": {
+			"title": "Bespoke Plan",
+			"description": "Premium support of exceptional people and properties.",
+			"price": "Consultation Only",
+			"features": {
+				"0": "Everything from Signature Plan",
+				"1": "Custom or live-in steward Property Inspections",
+				"2": "Daily or resident staff Interior Cleaning & Airing",
+				"3": "Utility & Meter Check: usage reports",
+				"4": "Full staff with botanist input for Garden & Lawn Care",
+				"5": "Garage & fleet mgmt. of Vehicles",
+				"6": "Dedicated technician for Pool Maintenance",
+				"7": "Emergency Response delay: 24x7 on-call estate manager",
+				"8": "Lifestyle-based, chef readiness for Return Preparation",
+				"9": "Secure portal + reports for Photo/Video Reports",
+				"10": "Private hotline / liaison WhatsApp Support",
+				"11": "Smart Home/Alarm Sync: Full system monitoring",
+				"12": "Vet visits + live-in caretaker for Pet Care",
+				"13": "Luxury Asset Oversight: Asset reporting, safekeeping",
+				"14": "Staff Coordination: Full HR & payroll for estate staff",
+				"15": "Security Liaison: Full-time security consultant",
+				"16": "Hight Confidentiality Requirements (Custom NDA + legal review)"
+			}
+		}
+	},
+	"about_us": {
+		"title": "About Us",
+		"description": "Suppavisor is a team of passionate professionals dedicated to delivering high-quality services that drive results. With years of experience across multiple industries, we are committed to make you happy. We are based in Punjab, India, and willing to expend our expertise to all over India in near future."
+	},
+	"contact_us": {
+		"title": "Contact Us",
+		"description": "We would love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out to us. Our team is here to assist you and ensure you have the best experience possible.",
+		"form": {
+			"name": "Name",
+			"name_placeholder": "Your name",
+			"email": "Email",
+			"email_placeholder": "you@email.com",
+			"message": "Message",
+			"message_placeholder": "How can we help you?",
+			"submit": "Submit"
+		}
+	},
+	"all_rights_reserved": "All rights reserved."
+}

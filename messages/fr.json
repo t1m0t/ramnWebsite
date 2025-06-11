@@ -1,0 +1,143 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"head": {
+		"title": "Services et soins de qualité pour les propriétés OCI",
+		"description": "Nous proposons une large gamme de services pour vous aider à gérer votre maison ou votre voiture, que vous soyez absent ou déjà chez vous. Nos professionnels sont là pour veiller à ce que tout fonctionne parfaitement, afin que tout soit prêt, sûr et en parfait état pour que vous puissiez profiter de votre séjour en toute tranquillité."
+	},
+	"services": {
+		"home_care": {
+			"title": "Entretien de la maison",
+			"description": "Vérification du domicile, nettoyage intérieur et extérieur, pour un espace de vie toujours propre. Jardin et autres commodités entre de bonnes mains."
+		},
+		"return_preparation_services": {
+			"title": "Préparation au retour",
+			"description": "Vous rentrez chez vous et souhaitez que tout soit prêt à votre arrivée ? Besoin d’un coup de pouce rapide ou d’organiser une réservation ? Nous sommes là pour vous."
+		},
+		"property_security": {
+			"title": "Sécurité de la propriété",
+			"description": "Assurer la sécurité de votre propriété grâce à des inspections et une surveillance régulières."
+		},
+		"emergency_services": {
+			"title": "Services d'urgence",
+			"description": "Un imprévu pendant votre absence ? Nous vous aidons en cas d’urgence : fuite d’eau, coupure de courant ou autre situation urgente. Notre équipe intervient rapidement et efficacement."
+		}
+	},
+	"plans": {
+		"essential": {
+			"title": "Formule Essentielle",
+			"description": "Idéale pour les petits biens ou les courts séjours.",
+			"price": "12 €/mois",
+			"features": {
+				"0": "Inspections mensuelles de la propriété",
+				"1": "Nettoyage et aération intérieurs mensuels",
+				"2": "Gestion du courrier",
+				"3": "Vérification des compteurs et utilités",
+				"4": "Rapports photo/vidéo mensuels",
+				"5": "Support WhatsApp basique",
+				"6": "Exigences de confidentialité minimales"
+			}
+		},
+		"comfort": {
+			"title": "Formule Confort",
+			"description": "Parfaite pour les biens de taille moyenne ou les séjours prolongés.",
+			"price": "24 €/mois",
+			"features": {
+				"0": "Tout de la formule Essentielle",
+				"1": "Inspections bi-mensuelles",
+				"2": "Nettoyage et aération intérieurs deux fois par mois",
+				"3": "Entretien de base du jardin et de la pelouse",
+				"4": "Contrôle moteur + pneus du véhicule",
+				"5": "Délai d’intervention urgence : dès que possible",
+				"6": "Préparation de retour basique",
+				"7": "Rapports photo/vidéo deux fois par mois",
+				"8": "Support WhatsApp intermédiaire",
+				"9": "Exigences de confidentialité intermédiaires"
+			}
+		},
+		"executive": {
+			"title": "Formule Executive",
+			"description": "Idéale pour les grandes propriétés ou les voyageurs fréquents.",
+			"price": "48 €/mois",
+			"features": {
+				"0": "Tout de la formule Confort",
+				"1": "Inspections hebdomadaires",
+				"2": "Nettoyage et aération intérieurs hebdomadaires + en profondeur",
+				"3": "Entretien complet du jardin et de la pelouse",
+				"4": "Carburant + nettoyage complet du véhicule",
+				"5": "Entretien basique de la piscine",
+				"6": "Délai d’intervention urgence : le jour même",
+				"7": "Préparation de retour complète",
+				"8": "Rapports photo/vidéo hebdomadaires",
+				"9": "Support WhatsApp prioritaire",
+				"10": "Support domotique/alarme basique",
+				"11": "Soins animaux basiques",
+				"12": "Exigences de confidentialité avancées"
+			}
+		},
+		"signature": {
+			"title": "Formule Signature",
+			"description": "Le meilleur pour les grandes propriétés ou les voyageurs fréquents.",
+			"price": "Sur demande",
+			"features": {
+				"0": "Tout de la formule Executive",
+				"1": "Inspections personnalisées",
+				"2": "Nettoyage et aération intérieurs personnalisés",
+				"3": "Entretien complet + stylisme du jardin et de la pelouse",
+				"4": "Coordination chauffeur pour le véhicule",
+				"5": "Entretien premium de la piscine",
+				"6": "Délai d’intervention urgence : prioritaire",
+				"7": "Accueil personnalisé pour le retour",
+				"8": "Rapports photo/vidéo sur demande",
+				"9": "Assistant dédié WhatsApp",
+				"10": "Support domotique/alarme intermédiaire",
+				"11": "Soins animaux intermédiaires",
+				"12": "Gestion d’actifs de luxe : art, vin, gestion du personnel",
+				"13": "Coordination du personnel : visites femme de ménage/chauffeur",
+				"14": "Liaison sécurité : optionnel",
+				"15": "Exigences de confidentialité élevées (NDA inclus)"
+			}
+		},
+		"bespoke": {
+			"title": "Formule Sur-mesure",
+			"description": "Accompagnement premium pour des biens et des personnes d’exception.",
+			"price": "Sur devis",
+			"features": {
+				"0": "Tout de la formule Signature",
+				"1": "Inspections personnalisées ou majordome résident",
+				"2": "Nettoyage et aération quotidiens ou personnel résident",
+				"3": "Vérification des compteurs : rapports d’utilisation",
+				"4": "Équipe complète avec botaniste pour le jardin",
+				"5": "Gestion du garage et de la flotte de véhicules",
+				"6": "Technicien dédié pour la piscine",
+				"7": "Délai d’intervention urgence : gestionnaire de domaine 24/7",
+				"8": "Préparation retour personnalisée, chef à disposition",
+				"9": "Portail sécurisé + rapports photo/vidéo",
+				"10": "Hotline privée/support WhatsApp dédié",
+				"11": "Domotique/alarme : supervision complète",
+				"12": "Visites vétérinaires + gardien résident pour animaux",
+				"13": "Gestion d’actifs de luxe : reporting, conservation",
+				"14": "Coordination du personnel : RH et paie pour le personnel du domaine",
+				"15": "Liaison sécurité : consultant à temps plein",
+				"16": "Exigences de confidentialité maximales (NDA personnalisé + revue juridique)"
+			}
+		}
+	},
+	"about_us": {
+		"title": "À propos de nous",
+		"description": "Suppavisor est une équipe de professionnels passionnés, dédiée à fournir des services de haute qualité pour des résultats concrets. Forts de nombreuses années d’expérience dans divers secteurs, nous nous engageons à vous satisfaire. Basés au Pendjab, en Inde, nous souhaitons étendre notre expertise dans tout le pays prochainement."
+	},
+	"contact_us": {
+		"title": "Contactez-nous",
+		"description": "Nous serions ravis d’avoir de vos nouvelles ! Que vous ayez une question, un retour ou simplement envie de dire bonjour, contactez-nous. Notre équipe est là pour vous aider et vous garantir la meilleure expérience possible.",
+		"form": {
+			"name": "Nom",
+			"name_placeholder": "Votre nom",
+			"email": "E-mail",
+			"email_placeholder": "vous@email.com",
+			"message": "Message",
+			"message_placeholder": "Comment pouvons-nous vous aider ?",
+			"submit": "Envoyer"
+		}
+	},
+	"all_rights_reserved": "Tous droits réservés."
+}

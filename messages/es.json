@@ -1,0 +1,143 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "head": {
+        "title": "Cuidado y servicios de calidad para propiedades OCI",
+        "description": "Ofrecemos una amplia gama de servicios para ayudarte a gestionar tu hogar o coche, tanto si estás fuera como si ya estás en casa. Nuestros profesionales están aquí para asegurarse de que todo funcione sin problemas, para que todo esté listo, seguro y en perfectas condiciones, y así puedas disfrutar de tu estancia con total tranquilidad."
+    },
+    "services": {
+        "home_care": {
+            "title": "Cuidado del Hogar",
+            "description": "Revisión del hogar, limpieza de interiores y exteriores, proporcionando un espacio ordenado. Jardín y otras comodidades en manos profesionales."
+        },
+        "return_preparation_services": {
+            "title": "Servicios de Preparación para el Retorno",
+            "description": "¿Vuelves a casa y quieres que todo esté listo cuando llegues? ¿Necesitas un repaso rápido? ¿Necesitas ayuda con reservas? Estamos aquí para ti."
+        },
+        "property_security": {
+            "title": "Seguridad de la Propiedad",
+            "description": "Garantizando la seguridad de tu propiedad con inspecciones y monitoreo regulares."
+        },
+        "emergency_services": {
+            "title": "Servicios de Emergencia",
+            "description": "¿Ocurrió algo inesperado mientras estabas fuera? Estamos aquí para ayudarte con servicios de emergencia, ya sea una tubería rota, un corte de energía u otra situación urgente. Nuestro equipo está listo para responder rápida y eficientemente."
+        }
+    },
+    "plans": {
+        "essential": {
+            "title": "Plan Esencial",
+            "description": "Ideal para propiedades pequeñas o estancias cortas.",
+            "price": "10 €/mes",
+            "features": {
+                "0": "Inspecciones mensuales de la propiedad",
+                "1": "Limpieza y ventilación interior mensual",
+                "2": "Gestión de correo",
+                "3": "Revisión de servicios y medidores",
+                "4": "Informes mensuales con fotos/vídeos",
+                "5": "Soporte básico por WhatsApp",
+                "6": "Requisitos mínimos de confidencialidad"
+            }
+        },
+        "comfort": {
+            "title": "Plan Comfort",
+            "description": "Perfecto para propiedades medianas o estancias largas.",
+            "price": "20 €/mes",
+            "features": {
+                "0": "Todo lo del Plan Esencial",
+                "1": "Inspecciones quincenales de la propiedad",
+                "2": "Limpieza y ventilación interior dos veces al mes",
+                "3": "Cuidado básico de jardín y césped",
+                "4": "Revisión de motor y neumáticos del vehículo",
+                "5": "Tiempo de respuesta de emergencia: lo antes posible",
+                "6": "Preparación básica para el retorno",
+                "7": "Informes con fotos/vídeos dos veces al mes",
+                "8": "Soporte medio por WhatsApp",
+                "9": "Requisitos medios de confidencialidad"
+            }
+        },
+        "executive": {
+            "title": "Plan Ejecutivo",
+            "description": "El mejor para propiedades grandes o viajeros frecuentes.",
+            "price": "40 €/mes",
+            "features": {
+                "0": "Todo lo del Plan Comfort",
+                "1": "Inspecciones semanales de la propiedad",
+                "2": "Limpieza y ventilación interior semanal y profunda",
+                "3": "Cuidado completo de jardín y césped",
+                "4": "Combustible y limpieza completa del vehículo",
+                "5": "Mantenimiento básico de piscina",
+                "6": "Tiempo de respuesta de emergencia: mismo día",
+                "7": "Preparación completa para el retorno",
+                "8": "Informes semanales con fotos/vídeos",
+                "9": "Soporte prioritario por WhatsApp",
+                "10": "Soporte básico para Smart Home/Alarmas",
+                "11": "Cuidado básico de mascotas",
+                "12": "Requisitos avanzados de confidencialidad"
+            }
+        },
+        "signature": {
+            "title": "Plan Signature",
+            "description": "El mejor para propiedades grandes o viajeros frecuentes.",
+            "price": "A consultar",
+            "features": {
+                "0": "Todo lo del Plan Ejecutivo",
+                "1": "Inspecciones personalizadas de la propiedad",
+                "2": "Limpieza y ventilación interior personalizada",
+                "3": "Cuidado completo y estilizado de jardín y césped",
+                "4": "Coordinación de conductor para el vehículo",
+                "5": "Mantenimiento de piscina de calidad premium",
+                "6": "Tiempo de respuesta de emergencia: prioritario",
+                "7": "Bienvenida personalizada para el retorno",
+                "8": "Informes con fotos/vídeos a solicitud",
+                "9": "Asistente dedicado por WhatsApp",
+                "10": "Soporte medio para Smart Home/Alarmas",
+                "11": "Cuidado medio de mascotas",
+                "12": "Supervisión de activos de lujo: arte, vino, gestión de personal",
+                "13": "Coordinación de personal: visitas de empleada/conductor",
+                "14": "Enlace de seguridad: opcional",
+                "15": "Altos requisitos de confidencialidad (NDA incluido)"
+            }
+        },
+        "bespoke": {
+            "title": "Plan Personalizado",
+            "description": "Soporte premium para personas y propiedades excepcionales.",
+            "price": "Solo consulta",
+            "features": {
+                "0": "Todo lo del Plan Signature",
+                "1": "Inspecciones personalizadas o con mayordomo residente",
+                "2": "Limpieza y ventilación diaria o con personal residente",
+                "3": "Revisión de servicios y medidores: informes de uso",
+                "4": "Equipo completo con botánico para jardín y césped",
+                "5": "Gestión de garaje y flota de vehículos",
+                "6": "Técnico dedicado para mantenimiento de piscina",
+                "7": "Tiempo de respuesta de emergencia: administrador de finca 24/7",
+                "8": "Preparación para el retorno basada en el estilo de vida, chef disponible",
+                "9": "Portal seguro + informes para fotos/vídeos",
+                "10": "Línea directa privada / soporte por WhatsApp",
+                "11": "Smart Home/Alarmas: monitoreo completo del sistema",
+                "12": "Visitas veterinarias + cuidador residente para mascotas",
+                "13": "Supervisión de activos de lujo: informes, custodia",
+                "14": "Coordinación de personal: RRHH y nómina para el personal de la finca",
+                "15": "Enlace de seguridad: consultor de seguridad a tiempo completo",
+                "16": "Altos requisitos de confidencialidad (NDA personalizado + revisión legal)"
+            }
+        }
+    },
+    "about_us": {
+        "title": "Sobre Nosotros",
+        "description": "Suppavisor es un equipo de profesionales apasionados dedicados a ofrecer servicios de alta calidad que generan resultados. Con años de experiencia en múltiples industrias, estamos comprometidos a hacerte feliz. Tenemos sede en Punjab, India, y esperamos expandir nuestra experiencia por toda la India en un futuro próximo."
+    },
+    "contact_us": {
+        "title": "Contáctanos",
+        "description": "¡Nos encantaría saber de ti! Ya sea que tengas una pregunta, comentario o simplemente quieras saludar, no dudes en contactarnos. Nuestro equipo está aquí para ayudarte y asegurarse de que tengas la mejor experiencia posible.",
+        "form": {
+            "name": "Nombre",
+            "name_placeholder": "Tu nombre",
+            "email": "Correo electrónico",
+            "email_placeholder": "tu@email.com",
+            "message": "Mensaje",
+            "message_placeholder": "¿Cómo podemos ayudarte?",
+            "submit": "Enviar"
+        }
+    },
+    "all_rights_reserved": "Todos los derechos reservados."
+}
