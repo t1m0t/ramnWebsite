@@ -4,6 +4,13 @@
         "title": "Qualitätsbetreuung und Dienstleistungen für OCI-Immobilien",
         "description": "Wir bieten eine breite Palette von Dienstleistungen, um Ihnen bei der Verwaltung Ihres Hauses oder Autos zu helfen – egal ob Sie abwesend sind oder bereits zu Hause. Unsere Fachleute sorgen dafür, dass alles reibungslos läuft, damit alles bereit, sicher und in bestem Zustand ist, sodass Sie Ihren Aufenthalt mit maximaler Ruhe genießen können."
     },
+    "get_started": "Loslegen",
+    "menu": {
+        "services": "Dienstleistungen",
+        "plans": "Preise",
+        "about": "Über uns",
+        "contact": "Kontakt"
+    },
     "services": {
         "home_care": {
             "title": "Hausbetreuung",

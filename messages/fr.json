@@ -4,6 +4,13 @@
 		"title": "Services et soins de qualité pour les propriétés OCI",
 		"description": "Nous proposons une large gamme de services pour vous aider à gérer votre maison ou votre voiture, que vous soyez absent ou déjà chez vous. Nos professionnels sont là pour veiller à ce que tout fonctionne parfaitement, afin que tout soit prêt, sûr et en parfait état pour que vous puissiez profiter de votre séjour en toute tranquillité."
 	},
+	"get_started": "Commencer",
+	"menu": {
+		"services": "Services",
+		"plans": "Formules tarifaires",
+		"about": "À propos",
+		"contact": "Contact"
+	},
 	"services": {
 		"home_care": {
 			"title": "Entretien de la maison",

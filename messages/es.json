@@ -4,6 +4,13 @@
         "title": "Cuidado y servicios de calidad para propiedades OCI",
         "description": "Ofrecemos una amplia gama de servicios para ayudarte a gestionar tu hogar o coche, tanto si estás fuera como si ya estás en casa. Nuestros profesionales están aquí para asegurarse de que todo funcione sin problemas, para que todo esté listo, seguro y en perfectas condiciones, y así puedas disfrutar de tu estancia con total tranquilidad."
     },
+    "get_started": "Comenzar",
+    "menu": {
+        "services": "Servicios",
+        "plans": "Planes de precios",
+        "about": "Sobre nosotros",
+        "contact": "Contacto"
+    },
     "services": {
         "home_care": {
             "title": "Cuidado del Hogar",

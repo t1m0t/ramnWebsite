@@ -4,6 +4,19 @@
 		"title": "Quality Care and Services for OCI Properties",
 		"description": "We provide a wide range of services to help you manage your home, car, while away or if you are already at home. Our professionals are here to ensure everything runs smoothly, so everything is ready, safe and sound so you can enjoy your stay at maximum peace of mind."
 	},
+	"get_started": "Get Started",
+	"menu": {
+		"services": "Services",
+		"plans": "Pricing Plans",
+		"about": "About",
+		"contact": "Contact"
+	},
+	"sections": {
+		"services": "Services",
+		"plans": "Pricing Plans",
+		"about": "About Us",
+		"contact": "Contact Us"
+	},
 	"services": {
 		"home_care": {
 			"title": "Home Care",

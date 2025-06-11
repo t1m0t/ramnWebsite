@@ -24,6 +24,53 @@
 	let plansAndPricesText: PlanAndPriceText[] = $state([]);
 	let headTitle: string = $state(m['head.title']());
 	let headDescription: string = $state(m['head.description']());
+	let menuTranslations: string[] = $state([
+		m['menu.services'](),
+		m['menu.plans'](),
+		m['menu.about'](),
+		m['menu.contact']()
+	]);
+	let getStartedTranslation: string = $state(m['get_started']());
+	let sectionTitleTranslation: {
+		services: string;
+		plans: string;
+		about: string;
+		contact: string;
+	} = $state({
+		services: m['sections.services'](),
+		plans: m['sections.plans'](),
+		about: m['sections.about'](),
+		contact: m['sections.contact']()
+	});
+	let aboutUsTranslation: { title: string; description: string } = $state({
+		title: m['about_us.title'](),
+		description: m['about_us.description']()
+	});
+	let contactUsTranslation: {
+		title: string;
+		description: string;
+		form: {
+			name: string;
+			name_placeholder: string;
+			email: string;
+			email_placeholder: string;
+			message: string;
+			message_placeholder: string;
+			submit: string;
+		};
+	} = $state({
+		title: m['contact_us.title'](),
+		description: m['contact_us.description'](),
+		form: {
+			name: m['contact_us.form.name'](),
+			name_placeholder: m['contact_us.form.name_placeholder'](),
+			email: m['contact_us.form.email'](),
+			email_placeholder: m['contact_us.form.email_placeholder'](),
+			message: m['contact_us.form.message'](),
+			message_placeholder: m['contact_us.form.message_placeholder'](),
+			submit: m['contact_us.form.submit']()
+		}
+	});
 
 	onMount(() => {
 		setTranslations();
@@ -38,6 +85,36 @@
 	function setTranslations() {
 		headTitle = m['head.title']();
 		headDescription = m['head.description']();
+		getStartedTranslation = m['get_started']();
+		menuTranslations = [
+			m['menu.services'](),
+			m['menu.plans'](),
+			m['menu.about'](),
+			m['menu.contact']()
+		];
+		sectionTitleTranslation = {
+			services: m['sections.services'](),
+			plans: m['sections.plans'](),
+			about: m['sections.about'](),
+			contact: m['sections.contact']()
+		};
+		aboutUsTranslation = {
+			title: m['about_us.title'](),
+			description: m['about_us.description']()
+		};
+		contactUsTranslation = {
+			title: m['contact_us.title'](),
+			description: m['contact_us.description'](),
+			form: {
+				name: m['contact_us.form.name'](),
+				name_placeholder: m['contact_us.form.name_placeholder'](),
+				email: m['contact_us.form.email'](),
+				email_placeholder: m['contact_us.form.email_placeholder'](),
+				message: m['contact_us.form.message'](),
+				message_placeholder: m['contact_us.form.message_placeholder'](),
+				submit: m['contact_us.form.submit']()
+			}
+		};
 		servicesText = [
 			{
 				title: m['services.home_care.title'](),
@@ -240,10 +317,10 @@
 						<LanguageSwitcher />
 					</div>
 					<div class="flex flex-col gap-1 space-x-6 md:flex-row">
-						<a href="#services" class="hover:underline">Services</a>
-						<a href="#plans" class="hover:underline">Pricing Plans</a>
-						<a href="#about" class="hover:underline">About</a>
-						<a href="#contact" class="hover:underline">Contact</a>
+						<a href="#services" class="hover:underline">{menuTranslations[0]}</a>
+						<a href="#plans" class="hover:underline">{menuTranslations[1]}</a>
+						<a href="#about" class="hover:underline">{menuTranslations[2]}</a>
+						<a href="#contact" class="hover:underline">{menuTranslations[3]}</a>
 					</div>
 				</div>
 			</nav>
@@ -270,13 +347,15 @@
 			href="#contact"
 			class="bg-primary hover:bg-primary/90 inline-block rounded px-6 py-3 font-semibold text-white shadow transition"
 		>
-			Get Started
+			{getStartedTranslation}
 		</a>
 	</section>
 
 	<!-- Services Section -->
 	<section id="services" class="container mx-auto px-4 py-16">
-		<h3 class="mb-8 text-center text-3xl font-bold">Our Services</h3>
+		<h3 class="mb-8 text-center text-3xl font-bold">
+			{sectionTitleTranslation.services}
+		</h3>
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
 			{#each servicesText as service}
 				{@render services(service)}
@@ -286,7 +365,7 @@
 
 	<!-- Pricing Plans Section -->
 	<section id="plans" class="container mx-auto px-4 py-16">
-		<h3 class="mb-8 text-center text-3xl font-bold">Pricing Plans</h3>
+		<h3 class="mb-8 text-center text-3xl font-bold">{sectionTitleTranslation.plans}</h3>
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-5">
 			{#each plansAndPricesText as plan}
 				{@render plans(plan)}
@@ -296,45 +375,47 @@
 
 	<!-- About Section -->
 	<section id="about" class="container mx-auto px-4 py-16">
-		<h3 class="mb-6 text-center text-3xl font-bold">{m['about_us.title']()}</h3>
+		<h3 class="mb-6 text-center text-3xl font-bold">{aboutUsTranslation.title}</h3>
 		<p class="text-muted-foreground mx-auto max-w-2xl text-center">
-			{m['about_us.description']()}
+			{aboutUsTranslation.description}
 		</p>
 	</section>
 
 	<!-- Contact Section -->
 	<section id="contact" class="container mx-auto px-4 py-16">
-		<h3 class="mb-6 text-center text-3xl font-bold">{m['contact_us.title']()}</h3>
+		<h3 class="mb-6 text-center text-3xl font-bold">{contactUsTranslation.title}</h3>
 		<form class="bg-card mx-auto max-w-xl space-y-6 rounded-lg p-8 shadow">
 			<p class="text-muted-foreground mx-auto max-w-2xl text-center">
-				{m['contact_us.description']()}
+				{contactUsTranslation.description}
 			</p>
 			<div>
-				<label class="mb-2 block font-medium" for="name">{m['contact_us.form.name']()}</label>
+				<label class="mb-2 block font-medium" for="name">{contactUsTranslation.form.name}</label>
 				<input
 					id="name"
 					type="text"
 					class="input input-bordered w-full"
-					placeholder={m['contact_us.form.name_placeholder']()}
+					placeholder={contactUsTranslation.form.name_placeholder}
 					required
 				/>
 			</div>
 			<div>
-				<label class="mb-2 block font-medium" for="email">{m['contact_us.form.email']()}</label>
+				<label class="mb-2 block font-medium" for="email">{contactUsTranslation.form.email}</label>
 				<input
 					id="email"
 					type="email"
 					class="input input-bordered w-full"
-					placeholder={m['contact_us.form.email_placeholder']()}
+					placeholder={contactUsTranslation.form.email_placeholder}
 					required
 				/>
 			</div>
 			<div>
-				<label class="mb-2 block font-medium" for="message">{m['contact_us.form.message']()}</label>
+				<label class="mb-2 block font-medium" for="message"
+					>{contactUsTranslation.form.message}</label
+				>
 				<textarea
 					id="message"
 					class="input input-bordered min-h-[100px] w-full"
-					placeholder={m['contact_us.form.message_placeholder']()}
+					placeholder={contactUsTranslation.form.message_placeholder}
 					required
 				></textarea>
 			</div>
@@ -342,7 +423,7 @@
 				type="submit"
 				class="bg-primary hover:bg-primary/90 w-full rounded px-6 py-3 font-semibold text-white shadow transition"
 			>
-				{m['contact_us.form.submit']()}
+				{contactUsTranslation.form.submit}
 			</button>
 		</form>
 	</section>
